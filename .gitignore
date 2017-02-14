@@ -3,3 +3,5 @@ npm-debug.log
 node_modules
 project/*
 !project/.nothing
+.ftpconfig
+student.pem
