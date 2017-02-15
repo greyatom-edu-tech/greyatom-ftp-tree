@@ -1,10 +1,10 @@
 {
-  "name": "Remote-FTP",
+  "name": "greyatom-tree-view",
   "main": "./lib/remote-ftp",
-  "version": "0.10.5",
-  "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
+  "version": "0.0.0",
+  "description": "Enable browsing remote project files for GreyAtom students. Requires GreyAtom-IDE package.",
   "activationCommands": [],
-  "repository": "https://github.com/mgrenier/remote-ftp",
+  "repository": "https://github.com/greyatom-edu-tech/greyatom-ftp-tree",
   "license": "MIT",
   "engines": {
     "atom": ">=0.204.0 <2.0.0"
