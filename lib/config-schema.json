@@ -27,5 +27,21 @@
   "enableTransferNotifications":{
     "type":"boolean",
     "default":false
+  },
+  "student-token-key":{
+    "type":"string",
+    "default":"learn-ide:token"
+  },
+  "api-for-pem":{
+    "type":"string",
+    "default":"http://surajjadhav.com/MyKeyPair.pem"
+  },
+  "api-for-ftpconfig":{
+    "type":"string",
+    "default":"http://api.myjson.com/bins/b59p1"
+  },
+  "websocket-endpoint":{
+    "type":"string",
+    "default":"http://35.154.96.42:9000"
   }
 }
