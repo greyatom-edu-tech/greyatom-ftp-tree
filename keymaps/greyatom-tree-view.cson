@@ -1,0 +1,5 @@
+'atom-workspace':
+  'ctrl-alt-o': 'greyatom-tree-view:toggle'
+  # 'ctrl-alt-d': 'greyatom-tree-view:disconnect'
+  # 'ctrl-alt-c': 'greyatom-tree-view:connect'
+  # 'cmd-shift-u': 'greyatom-tree-view:upload-selected'
