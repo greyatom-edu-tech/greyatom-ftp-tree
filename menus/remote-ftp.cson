@@ -1,32 +1,32 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.tree-view.full-menu': [
-      { label: 'Upload', command: 'remote-ftp:upload-selected' },
-      { label: 'Download', command: 'remote-ftp:download-selected-local' },
-      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
+      { label: 'Upload', command: 'greyatom-tree-view:upload-selected' },
+      { label: 'Download', command: 'greyatom-tree-view:download-selected-local' },
+      { label: 'Sync local -> remote', command: 'greyatom-tree-view:sync-with-local' }
     ]
   '.tree-view.multi-select': [
-      { label: 'Upload', command: 'remote-ftp:upload-selected' },
-      { label: 'Download', command: 'remote-ftp:download-selected-local' },
-      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
+      { label: 'Upload', command: 'greyatom-tree-view:upload-selected' },
+      { label: 'Download', command: 'greyatom-tree-view:download-selected-local' },
+      { label: 'Sync local -> remote', command: 'greyatom-tree-view:sync-with-local' }
     ]
-  '.remote-ftp-view .list-tree.full-menu': [
-      { label: 'Add File', command: 'remote-ftp:add-file' },
-      { label: 'Add Folder', command: 'remote-ftp:add-folder' },
-      { label: 'Refresh', command: 'remote-ftp:refresh-selected' },
-      { label: 'Disconnect', command: 'remote-ftp:disconnect' },
-      { label: 'Rename', command: 'remote-ftp:move-selected' },
-      { label: 'Delete', command: 'remote-ftp:delete-selected' },
-      { label: 'Download', command: 'remote-ftp:download-selected' },
-      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' },
-      { label: 'Hide', command: 'remote-ftp:toggle' }
+  '.greyatom-tree-view-view .list-tree.full-menu': [
+      { label: 'Add File', command: 'greyatom-tree-view:add-file' },
+      { label: 'Add Folder', command: 'greyatom-tree-view:add-folder' },
+      { label: 'Refresh', command: 'greyatom-tree-view:refresh-selected' },
+      { label: 'Disconnect', command: 'greyatom-tree-view:disconnect' },
+      { label: 'Rename', command: 'greyatom-tree-view:move-selected' },
+      { label: 'Delete', command: 'greyatom-tree-view:delete-selected' },
+      { label: 'Download', command: 'greyatom-tree-view:download-selected' },
+      { label: 'Sync local <- remote', command: 'greyatom-tree-view:sync-with-remote' },
+      { label: 'Hide', command: 'greyatom-tree-view:toggle' }
     ]
-  '.remote-ftp-view .list-tree.multi-select': [
-      { label: 'Download', command: 'remote-ftp:download-selected' },
-      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
+  '.greyatom-tree-view-view .list-tree.multi-select': [
+      { label: 'Download', command: 'greyatom-tree-view:download-selected' },
+      { label: 'Sync local <- remote', command: 'greyatom-tree-view:sync-with-remote' }
     ]
   'atom-text-editor': [
-      { label: 'Upload', command: 'remote-ftp:upload-active' },
+      { label: 'Upload', command: 'greyatom-tree-view:upload-active' },
     ]
 
 
@@ -34,15 +34,15 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Remote-FTP'
+      'label': 'greyatom-tree-view'
       'submenu': [
-        { label: 'Toggle', command: 'remote-ftp:toggle' },
-        { label: 'Connect', command: 'remote-ftp:connect' },
-        { label: 'Disconnect', command: 'remote-ftp:disconnect' },
-        { label: 'Navigate to', command: 'remote-ftp:navigate-to' },
-        { label: 'Create ignore file', command: 'remote-ftp:create-ignore-file' },
-        { label: 'Create FTP config file', command: 'remote-ftp:create-ftp-config' },
-        { label: 'Create SFTP config file', command: 'remote-ftp:create-sftp-config' },
+        { label: 'Toggle', command: 'greyatom-tree-view:toggle' },
+        { label: 'Connect', command: 'greyatom-tree-view:connect' },
+        { label: 'Disconnect', command: 'greyatom-tree-view:disconnect' },
+        { label: 'Navigate to', command: 'greyatom-tree-view:navigate-to' },
+        { label: 'Create ignore file', command: 'greyatom-tree-view:create-ignore-file' },
+        { label: 'Create FTP config file', command: 'greyatom-tree-view:create-ftp-config' },
+        { label: 'Create SFTP config file', command: 'greyatom-tree-view:create-sftp-config' },
       ]
     ]
   }

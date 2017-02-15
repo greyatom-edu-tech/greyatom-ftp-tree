@@ -1,5 +1,5 @@
 'atom-workspace':
-  'ctrl-alt-o': 'remote-ftp:toggle'
-  'ctrl-alt-d': 'remote-ftp:disconnect'
-  'ctrl-alt-c': 'remote-ftp:connect'
-  'cmd-shift-u': 'remote-ftp:upload-selected'
+  'ctrl-alt-o': 'greyatom-tree-view:toggle'
+  'ctrl-alt-d': 'greyatom-tree-view:disconnect'
+  'ctrl-alt-c': 'greyatom-tree-view:connect'
+  'cmd-shift-u': 'greyatom-tree-view:upload-selected'
