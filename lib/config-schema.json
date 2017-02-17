@@ -30,7 +30,7 @@
   },
   "student-token-key":{
     "type":"string",
-    "default":"learn-ide:token"
+    "default":"greyatom-ide:token"
   },
   "api-for-pem":{
     "type":"string",
