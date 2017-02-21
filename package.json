@@ -24,6 +24,7 @@
     "ignore": "^3.2.0",
     "lodash": "^4.17.4",
     "os-homedir": "^1.0.2",
+    "rimraf": "^2.6.0",
     "socket.io-client": "^1.7.2",
     "ssh2": "^0.5.4",
     "strip-json-comments": "^2.0.1",

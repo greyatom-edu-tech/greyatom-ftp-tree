@@ -29,25 +29,6 @@
       { label: 'Upload', command: 'greyatom-tree-view:upload-active' },
     ]
 
-
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'GreyAtom Tree View'
-      'submenu': [
-        { label: 'Toggle', command: 'greyatom-tree-view:toggle' },
-        # { label: 'Connect', command: 'greyatom-tree-view:connect' },
-        { label: 'Disconnect', command: 'greyatom-tree-view:disconnect' },
-        # { label: 'Navigate to', command: 'greyatom-tree-view:navigate-to' },
-        # { label: 'Create ignore file', command: 'greyatom-tree-view:create-ignore-file' },
-        # { label: 'Create FTP config file', command: 'greyatom-tree-view:create-ftp-config' },
-        # { label: 'Create SFTP config file', command: 'greyatom-tree-view:create-sftp-config' },
-      ]
-    ]
-  }
-]
-
 'atom-workspace': [{ label: 'Help', command: 'application:open-documentation' }]
 'atom-text-editor': [{
   label: 'History',
