@@ -1,7 +1,5 @@
 .DS_Store
 npm-debug.log
-node_modules
-project/*
-!project/.nothing
+node_modules/
 .ftpconfig
 student.pem

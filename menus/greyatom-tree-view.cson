@@ -1,32 +1,11 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.tree-view.full-menu': [
-      { label: 'Upload', command: 'greyatom-tree-view:upload-selected' },
-      { label: 'Download', command: 'greyatom-tree-view:download-selected-local' },
-      { label: 'Sync local -> remote', command: 'greyatom-tree-view:sync-with-local' }
-    ]
-  '.tree-view.multi-select': [
-      { label: 'Upload', command: 'greyatom-tree-view:upload-selected' },
-      { label: 'Download', command: 'greyatom-tree-view:download-selected-local' },
-      { label: 'Sync local -> remote', command: 'greyatom-tree-view:sync-with-local' }
-    ]
   '.greyatom-tree-view-view .list-tree.full-menu': [
       { label: 'Add File', command: 'greyatom-tree-view:add-file' },
       { label: 'Add Folder', command: 'greyatom-tree-view:add-folder' },
       { label: 'Refresh', command: 'greyatom-tree-view:refresh-selected' },
-      # { label: 'Disconnect', command: 'greyatom-tree-view:disconnect' },
       { label: 'Rename', command: 'greyatom-tree-view:move-selected' },
       { label: 'Delete', command: 'greyatom-tree-view:delete-selected' },
-      # { label: 'Download', command: 'greyatom-tree-view:download-selected' },
-      # { label: 'Sync local <- remote', command: 'greyatom-tree-view:sync-with-remote' },
-      { label: 'Hide', command: 'greyatom-tree-view:toggle' }
-    ]
-  '.greyatom-tree-view-view .list-tree.multi-select': [
-      { label: 'Download', command: 'greyatom-tree-view:download-selected' },
-      { label: 'Sync local <- remote', command: 'greyatom-tree-view:sync-with-remote' }
-    ]
-  'atom-text-editor': [
-      { label: 'Upload', command: 'greyatom-tree-view:upload-active' },
     ]
 
 'atom-workspace': [{ label: 'Help', command: 'application:open-documentation' }]
