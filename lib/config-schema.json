@@ -40,6 +40,10 @@
     "type":"string",
     "default":"http://api.myjson.com/bins/b59p1"
   },
+  "api-for-ftpignore":{
+    "type":"string",
+    "default":"http://api.myjson.com/bins/g2j0t"
+  },
   "websocket-endpoint":{
     "type":"string",
     "default":"http://35.154.96.42:9000"
