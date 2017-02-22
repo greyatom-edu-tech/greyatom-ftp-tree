@@ -30,7 +30,7 @@
   },
   "student-token-key":{
     "type":"string",
-    "default":"greyatom-ide:token"
+    "default":"commit-live:token"
   },
   "api-for-pem":{
     "type":"string",
