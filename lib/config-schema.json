@@ -32,6 +32,10 @@
     "type":"string",
     "default":"commit-live:token"
   },
+  "student-info-key":{
+    "type":"string",
+    "default":"commit-live:user-info"
+  },
   "api-for-pem":{
     "type":"string",
     "default":"http://surajjadhav.com/MyKeyPair.pem"
