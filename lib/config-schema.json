@@ -42,7 +42,7 @@
   },
   "api-for-ftpconfig":{
     "type":"string",
-    "default":"http://api.myjson.com/bins/b59p1"
+    "default":"http://api.myjson.com/bins/w23v3"
   },
   "api-for-ftpignore":{
     "type":"string",
@@ -50,6 +50,10 @@
   },
   "websocket-endpoint":{
     "type":"string",
-    "default":"http://35.154.96.42:9000"
+    "default":"http://35.154.189.94:9000"
+  },
+  "ftp-config-key": {
+    "type": "string",
+    "default": "commit-live:ftp-config"
   }
 }
