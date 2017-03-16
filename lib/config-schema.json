@@ -42,7 +42,7 @@
   },
   "api-for-ftpconfig":{
     "type":"string",
-    "default":"http://api.myjson.com/bins/w23v3"
+    "default":"http://api.myjson.com/bins/mdn3z"
   },
   "api-for-ftpignore":{
     "type":"string",
