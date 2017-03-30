@@ -55,5 +55,9 @@
   "ftp-config-key": {
     "type": "string",
     "default": "commit-live:ftp-config"
+  },
+  "ftp-ignore-config-key": {
+    "type": "string",
+    "default": "commit-live:ftp-ignore-config"
   }
 }
