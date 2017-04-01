@@ -50,7 +50,7 @@
   },
   "websocket-endpoint":{
     "type":"string",
-    "default":"http://35.154.189.94:9000"
+    "default":"http://35.154.206.75:5000/"
   },
   "ftp-config-key": {
     "type": "string",
