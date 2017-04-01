@@ -1,7 +1,7 @@
 {
   "name": "greyatom-tree-view",
   "main": "./lib/greyatom-tree-view",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Enable browsing remote project files for GreyAtom students. Requires GreyAtom-IDE package.",
   "activationCommands": [],
   "repository": "https://github.com/greyatom-edu-tech/greyatom-ftp-tree",
