@@ -36,21 +36,9 @@
     "type":"string",
     "default":"commit-live:user-info"
   },
-  "api-for-pem":{
-    "type":"string",
-    "default":"http://surajjadhav.com/MyKeyPair.pem"
-  },
-  "api-for-ftpconfig":{
-    "type":"string",
-    "default":"http://api.myjson.com/bins/mdn3z"
-  },
-  "api-for-ftpignore":{
-    "type":"string",
-    "default":"http://api.myjson.com/bins/g2j0t"
-  },
   "websocket-endpoint":{
     "type":"string",
-    "default":"http://35.154.206.75:5000/"
+    "default":"https://chat.commit.live"
   },
   "ftp-config-key": {
     "type": "string",
