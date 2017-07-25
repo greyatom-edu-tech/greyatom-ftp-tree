@@ -1,3 +1,6 @@
+'.platform-darwin':
+ 'cmd-p': 'remote-file-search:toggle'
+
 'atom-workspace':
   'ctrl-alt-o': 'greyatom-tree-view:toggle'
   'ctrl-p': 'remote-file-search:toggle'
