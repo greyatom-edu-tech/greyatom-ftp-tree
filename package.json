@@ -31,7 +31,7 @@
     "ssh2": "^0.5.4",
     "strip-json-comments": "^2.0.1",
     "theorist": "^1.0.2",
-    "atom-select-list": "^0.1.0",
+    "atom-select-list": "^0.0.14",
     "fuzzaldrin": "^2.0",
     "fuzzaldrin-plus": "^0.4.1"
   },
