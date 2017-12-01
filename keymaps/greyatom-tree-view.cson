@@ -1,9 +1,9 @@
 '.platform-darwin':
- 'cmd-p': 'remote-file-search:toggle'
+ 'cmd-p': 'commit-live-file-search:toggle'
 
 'atom-workspace':
-  'ctrl-alt-o': 'greyatom-tree-view:toggle'
-  'ctrl-p': 'remote-file-search:toggle'
+  'ctrl-alt-o': 'commit-live-tree-view:toggle'
+  'ctrl-p': 'commit-live-file-search:toggle'
   # 'ctrl-alt-d': 'greyatom-tree-view:disconnect'
   # 'ctrl-alt-c': 'greyatom-tree-view:connect'
   # 'cmd-shift-u': 'greyatom-tree-view:upload-selected'
