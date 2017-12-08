@@ -1,6 +1,9 @@
 '.platform-darwin':
  'cmd-p': 'commit-live-file-search:toggle'
 
+'.platform-win32, .platform-linux':
+  'ctrl-p': 'commit-live-file-search:toggle'
+
 'atom-workspace':
   'ctrl-alt-o': 'commit-live-tree-view:toggle'
   'ctrl-p': 'commit-live-file-search:toggle'
