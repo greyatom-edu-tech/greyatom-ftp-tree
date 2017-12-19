@@ -1,6 +1,6 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.greyatom-tree-view-view .list-tree.full-menu': [
+  '.greyatom-tree-view .list-tree.full-menu': [
       { label: 'Add File', command: 'greyatom-tree-view:add-file' },
       { label: 'Add Folder', command: 'greyatom-tree-view:add-folder' },
       { label: 'Refresh', command: 'greyatom-tree-view:refresh-selected' },
