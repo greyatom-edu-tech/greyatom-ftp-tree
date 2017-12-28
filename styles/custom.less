@@ -1,0 +1,106 @@
+.tool-bar{
+	margin-top: 20px;
+
+	.tool-bar-btn{
+		height: 45px!important;
+		width:  45px!important;
+	}
+
+	.tool-bar-btn{
+		&:before{
+			font-size: 20px!important;
+		}
+	}
+}
+.commit-live-project-bar{
+    width: 100%;
+	padding: 6px 10px;
+	float: left;
+	border-bottom: 1px solid #000;
+	display: table;
+
+	.commit-live-project-label, .commit-live-project-title{
+		display: table-cell;
+
+		&:after{
+			clear: both;
+			content: '';
+			display: block;
+		}
+	}
+	.commit-live-project-label{
+		width: 106px;
+	}
+	.project-title-label{
+		font-weight: bold;
+	}
+	.project-title-text{
+		
+	}
+}
+.ga-ide-wrapper{
+	@import "../node_modules/bootstrap/less/bootstrap.less";
+	@import "../node_modules/font-awesome/less/font-awesome.less";
+
+	@font-face {
+	  font-family: 'Glyphicons Halflings';
+	  src: url('https://s3.ap-south-1.amazonaws.com/ide-fonts/glyphicons-halflings-regular.eot');
+	  src: url('https://s3.ap-south-1.amazonaws.com/ide-fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+	       url('https://s3.ap-south-1.amazonaws.com/ide-fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+	       url('https://s3.ap-south-1.amazonaws.com/ide-fonts/glyphicons-halflings-regular.woff') format('woff'),
+	       url('https://s3.ap-south-1.amazonaws.com/ide-fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+	}
+	@font-face {
+	  font-family: 'FontAwesome';
+	  src: url('https://s3.ap-south-1.amazonaws.com/ide-fonts/fontawesome-webfont.eot?v=');
+	  src: url('https://s3.ap-south-1.amazonaws.com/ide-fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+	    url('https://s3.ap-south-1.amazonaws.com/ide-fonts/fontawesome-webfont.woff2') format('woff2'),
+	    url('https://s3.ap-south-1.amazonaws.com/ide-fonts/fontawesome-webfont.woff') format('woff'),
+	    url('https://s3.ap-south-1.amazonaws.com/ide-fonts/fontawesome-webfont.ttf') format('truetype'),
+	    url('https://s3.ap-south-1.amazonaws.com/ide-fonts/fontawesome-webfont.svg?v=#fontawesomeregular') format('svg');
+	  // src: url('@{fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+	&.project-view{
+		padding-top: 10px;
+
+		ul{
+			li{
+				line-height: 16px;
+				white-space: initial;
+
+				&.list-item{
+					a{
+						display: block;
+						padding: 6px 5px;
+						color: #9da5b4;
+
+						.lesson-name{
+							display: table;
+
+							.icon-cl{
+								display: table-cell;
+							}
+							.label-text{
+							    display: table-cell;
+							    padding-left: 8px;
+							}
+						}
+						.gacomplete-chapt{
+							margin-right: 5px;
+						}
+						&:hover{
+							text-decoration: none;
+							color: #d7dae0;
+						}
+						&:visited{
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
