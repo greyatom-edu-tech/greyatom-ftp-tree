@@ -47,5 +47,17 @@
   "ftp-ignore-config-key": {
     "type": "string",
     "default": "commit-live:ftp-ignore-config"
+  },
+  "detailsFileName": {
+    "type": "string",
+    "default": "readme.md",
+    "title": "Details File Name",
+    "description": "A valid file name that contains the Assignment Details"
+  },
+  "solutionFileName": {
+    "type": "string",
+    "default": "build.py",
+    "title": "Solution File Name",
+    "description": "A valid file name inside which the User will write Assignment solution"
   }
 }
